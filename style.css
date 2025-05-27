@@ -4,6 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
     align-items: center;
+    transition: .4s;
 }
 
 .input {
@@ -21,7 +22,7 @@ body {
 
 .circle {
     width: 34px;
-    background-color: red;
+    background-color: black;
     height: 34px;
     border-radius: 50%;
     position: absolute;
@@ -31,7 +32,7 @@ body {
 }
 
 .input:checked + .label {
-    background-color: salmon;
+    background-color: white;
 }
 
 .input:checked + .label .circle {
